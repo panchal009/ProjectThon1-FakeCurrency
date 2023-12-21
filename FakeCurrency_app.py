@@ -48,8 +48,6 @@ def main():
     # when 'Predict' is clicked, make the prediction and store it 
     if st.button("Predict"): 
         result = prediction(var, skew, curt, entr) 
-        st.success('The Currency is {}'.format(result))
-        print(LoanAmount)
-     
+        st.success('The Currency is {}'.format(result))     
 if __name__=='__main__': 
     main()
