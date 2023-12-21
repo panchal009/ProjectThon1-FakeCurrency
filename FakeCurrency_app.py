@@ -1,5 +1,5 @@
  
-import pickle
+import pickle5 as pickle
 import streamlit as st
  
 # loading the trained model
