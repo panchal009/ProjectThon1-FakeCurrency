@@ -39,10 +39,10 @@ def main():
     st.markdown(html_temp, unsafe_allow_html = True) 
     # 'var', 'skew', 'curt', 'entr
     # following lines create boxes in which user can enter data required to make prediction 
-    var = st.number_input(label="Enter Variance value",step=1,format=“%.2f”)
-    skew = st.number_input(label="Enter skew value",step=1,format=“%.2f”)
-    curt = st.number_input(label="Enter curt value",step=1,format=“%.2f”)
-    entr = st.number_input(label="Enter entr value",step=1,format=“%.2f”)
+    var = st.number_input(label="Enter Variance value",step=1,format='%.2f')
+    skew = st.number_input(label="Enter skew value",step=1,format='%.2f')
+    curt = st.number_input(label="Enter curt value",step=1,format='%.2f')
+    entr = st.number_input(label="Enter entr value",step=1,format='%.2f')
     result =""
       
     # when 'Predict' is clicked, make the prediction and store it 
